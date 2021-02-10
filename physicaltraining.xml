@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE business [
+  <!ELEMENT business (serviceType, businessName, businessLogo, businessEmail, manager, employee+, picture+, URL, address, phNumber+, workHours, inHomeService+, businessDescription, review, FAQ)>
+  
+  <!ELEMENT serviceType (#PCDATA)>
+  <!ELEMENT businessName (#PCDATA)>
+  <!ELEMENT businessLogo (#PCDATA)>
+  <!ELEMENT businessEmail (#PCDATA)>
+  <!ELEMENT manager (
+    manName, phManContactNumber, manEmail)>
+  <!ELEMENT manName (#PCDATA)>
+  <!ELEMENT phManContactNumber (#PCDATA)>
+  <!ELEMENT manEmail (#PCDATA)>
+
+    <!ELEMENT employee (
+    emName, phEmContactNumber, emEmail)>
+  <!ELEMENT emName (#PCDATA)>
+  <!ELEMENT phEmContactNumber (#PCDATA)>
+  <!ELEMENT emEmail (#PCDATA)>
+
+  <!ELEMENT picture (#PCDATA)>
+  <!ELEMENT URL (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phNumber (#PCDATA)>
+  <!ELEMENT workHours (#PCDATA)>
+  <!ELEMENT inHomeService (
+    minimumPrice, hourlyFee)>
+  <!ELEMENT minimumPrice (#PCDATA)>
+  <!ELEMENT hourlyFee (#PCDATA)>
+
+  <!ELEMENT businessDescription (#PCDATA)>
+  <!ELEMENT review (#PCDATA)>
+  <!ELEMENT FAQ (#PCDATA)>
+
+  
+]>
+
+
+<business>
+<business>
+<business>   
+	
+
+   <serviceType>physical training</serviceType>
+   <businessName>JUST DO IT!</businessName>
+   <businessLogo src="images/dumbbell.png">JUST DO IT!</businessLogo>
+   <!-- src=https://dlpng.com.png3938173 -->
+   <businessEmail>justdoit@jdi.com</businessEmail>
+   <manager>
+    		<manName>Big boss Jimmy Jones</manName>
+    		<phManContactNumber>0408-456-789</phManContactNumber>
+			<manEmail>jimmyjones@jdi.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Billie Jean</emName>
+    		<phEmContactNumber>0431-925-779</phEmContactNumber>
+			<emEmail>billiejean@jdi.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Rick Astley</emName>
+    		<phEmContactNumber>0469-333-384</phEmContactNumber>
+			<emEmail>rickastley@jdi.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Paul Mccartney</emName>
+    		<phEmContactNumber>0422-585-339</phEmContactNumber>
+			<emEmail>paulmccartney@jdi.com</emEmail>
+  	</employee>
+	<picture>#picture</picture>
+	<URL>https://justdoit.com/</URL>
+	<address>1600 penslvania ave, Washington DC</address>
+	<phNumber>4639-5738</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$35.00</minimumPrice>
+    		<hourlyFee>$10.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>We provide first class physical training with the core mentality of "JUST DO IT!" We get our clients off the couch and doing something they'll love in no time. Just do it today, you won't regret it.</businessDescription>
+	<review>****/***** Great staff with good work ethic, and awesome service. -A happy customer</review>
+	<FAQ>FAQ: Q:Is the first session free? A: No, of course not! We arent a charity! Q: What payment methods do we accept? A: Cash or card. Q: Is it worth it? A: Yes, just do it and you won't regret it!</FAQ>
+   
+   
+   
+
+
+   
+	
+
+   <serviceType>physical training</serviceType>
+   <businessName>Get thickk quick</businessName>
+   <businessLogo src="images/weight-loss.jpg">Get thickk quick</businessLogo>
+   <!-- src=https://www.hiclipart.com.free-transparent-background-png-clipart-gorlq   -->
+   <businessEmail>business@getthickkquick.com</businessEmail>
+   <manager>
+    		<manName>Elon Musk</manName>
+    		<phManContactNumber>0456-112-486</phManContactNumber>
+			<manEmail>manager@getthickkquick.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Bruce Springsteen</emName>
+    		<phEmContactNumber>0487-845-792</phEmContactNumber>
+			<emEmail>brucespringsteen@getthickkquick.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Billy Joel</emName>
+    		<phEmContactNumber>0466-526-889</phEmContactNumber>
+			<emEmail>employee@getthickkquick.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Whitney Houghston</emName>
+    		<phEmContactNumber>0434-454-666</phEmContactNumber>
+			<emEmail>employee@getthickkquick.com</emEmail>
+  	</employee>
+	<picture>#picture</picture>
+	<URL>https://getthickkquick.com/</URL>
+	<address>Buckingham Palace</address>
+	<phNumber>1924-3552</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$15.00</minimumPrice>
+    		<hourlyFee>$20.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>We get you Thickk Quick!</businessDescription>
+	<review>*****/***** Amazing studio and even better trainers! Cannot thank the team enough for helping me achieve my fitness goals and keeping me accountable. If you’re looking for a positive, friendly environment with fantastic trainers then look no further!. -Happy customer</review>
+	<FAQ>Q: Do I have the same trainer? A: Yes, We find that clients get the best results when rapport is developed. Q: How long are sessions? A: We have 30min, 45min, and 1hr sessions</FAQ>
+   <!-- Review and FAQ originally from https://wellfitpersonaltraining.com and their reviews  -->
+   
+   
+
+
+   
+	
+
+   <serviceType>physical training</serviceType>
+   <businessName>Those gains bro</businessName>
+   <businessLogo src="images/barbell.png">Those gains bro</businessLogo>
+   <!-- (src=http://www.pngmart.comimage88197) -->
+   <businessEmail>business@thosegainsbro.com</businessEmail>
+   <manager>
+    		<manName>Bill Gates</manName>
+    		<phManContactNumber>0453-859-444</phManContactNumber>
+			<manEmail>billgates@thosegainsbro.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Freddie mercury</emName>
+    		<phEmContactNumber>0434-222-798</phEmContactNumber>
+			<emEmail>freddiemercury@thosegainsbro.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>George Harrison</emName>
+    		<phEmContactNumber>0404-452-888</phEmContactNumber>
+			<emEmail>georgeharrison@thosegainsbro.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Robin Williams</emName>
+    		<phEmContactNumber>4855-336-999</phEmContactNumber>
+			<emEmail>robinwilliams@thosegainsbro.com</emEmail>
+  	</employee>
+	<picture>#picture</picture>
+	<URL>https://thosegainsbro.com/</URL>
+	<address>11 Wall Street, NYC</address>
+	<phNumber>1300-655-506</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$15.00</minimumPrice>
+    		<hourlyFee>$12.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>#REQUIRED</businessDescription>
+	<review>****/***** Good compliment, great service, bla bla bla bla. -Happy customer</review>
+	<FAQ>Q: Do you get mad gains bro? A: Hell yeah you do!</FAQ>
+   
+   
+   
+</business>
+</business>
+</business>

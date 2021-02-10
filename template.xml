@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE business [
+  <!ELEMENT business (serviceType, businessName, businessLogo, businessEmail, manager, employee+, picture+, URL, address, phNumber+, workHours, inHomeService+, businessDescription, review, FAQ)>
+  
+  <!ELEMENT serviceType (#PCDATA)>
+  <!ELEMENT businessName (#PCDATA)>
+  <!ELEMENT businessLogo (#PCDATA)>
+  <!ELEMENT businessEmail (#PCDATA)>
+  <!ELEMENT manager (
+    manName, phManContactNumber, manEmail)>
+  <!ELEMENT manName (#PCDATA)>
+  <!ELEMENT phManContactNumber (#PCDATA)>
+  <!ELEMENT manEmail (#PCDATA)>
+
+    <!ELEMENT employee (
+    emName, phEmContactNumber, emEmail)>
+  <!ELEMENT emName (#PCDATA)>
+  <!ELEMENT phEmContactNumber (#PCDATA)>
+  <!ELEMENT emEmail (#PCDATA)>
+
+  <!ELEMENT picture (#PCDATA)>
+  <!ELEMENT URL (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phNumber (#PCDATA)>
+  <!ELEMENT workHours (#PCDATA)>
+  <!ELEMENT inHomeService (
+    minimumPrice, hourlyFee)>
+  <!ELEMENT minimumPrice (#PCDATA)>
+  <!ELEMENT hourlyFee (#PCDATA)>
+
+  <!ELEMENT businessDescription (#PCDATA)>
+  <!ELEMENT review (#PCDATA)>
+  <!ELEMENT FAQ (#PCDATA)>
+
+  
+]>
+
+
+<business>
+   
+	
+
+   <serviceType>#REQUIRED</serviceType>
+   <businessName>#REQUIRED</businessName>
+   <businessLogo>#picture</businessLogo>
+   <businessEmail>business@website.com</businessEmail>
+   <manager>
+    		<manName>Boss Blogs</manName>
+    		<phManContactNumber>1234-456-789</phManContactNumber>
+			<manEmail>manager@website.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Jo Blogs</emName>
+    		<phEmContactNumber>1234-456-789</phEmContactNumber>
+			<emEmail>employee@website.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Jo Blogs</emName>
+    		<phEmContactNumber>1234-456-789</phEmContactNumber>
+			<emEmail>employee@website.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Jo Blogs</emName>
+    		<phEmContactNumber>1234-456-789</phEmContactNumber>
+			<emEmail>employee@website.com</emEmail>
+  	</employee>
+	<picture>#picture</picture>
+	<URL>https://website.com/</URL>
+	<address>#REQUIRED</address>
+	<phNumber>1234-5678</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$15.00</minimumPrice>
+    		<hourlyFee>$12.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>#REQUIRED</businessDescription>
+	<review>****/***** Good compliment, great service, bla bla bla bla. -Happy customer</review>
+	<FAQ>#REQUIRED</FAQ>
+   
+   
+   
+</business>

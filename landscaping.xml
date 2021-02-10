@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="services-xslt.xsl" type="text/xsl"?>
+
+<!DOCTYPE businesses [
+  <!ELEMENT businesses (business+)>
+  <!ELEMENT business (serviceType, businessName, businessLogo, businessEmail, manager, employee+, picture, URL, address, phNumber, workHours, inHomeService, businessDescription, review, FAQ)>
+  
+  <!ELEMENT serviceType (#PCDATA)>
+  <!ELEMENT businessName (#PCDATA)>
+  <!ELEMENT businessLogo (
+  alt1, src1, location1)>
+  <!ELEMENT alt1 (#PCDATA)>
+  <!ELEMENT src1 (#PCDATA)>
+  <!ELEMENT location1 (#PCDATA)>
+
+  <!ELEMENT businessEmail (#PCDATA)>
+  <!ELEMENT manager (
+    manName, phManContactNumber, manEmail)>
+  <!ELEMENT manName (#PCDATA)>
+  <!ELEMENT phManContactNumber (#PCDATA)>
+  <!ELEMENT manEmail (#PCDATA)>
+
+    <!ELEMENT employee (
+    emName, phEmContactNumber, emEmail)>
+  <!ELEMENT emName (#PCDATA)>
+  <!ELEMENT phEmContactNumber (#PCDATA)>
+  <!ELEMENT emEmail (#PCDATA)>
+
+  <!ELEMENT picture (
+  alt, src, location)>
+  <!ELEMENT alt (#PCDATA)>
+  <!ELEMENT src (#PCDATA)>
+  <!ELEMENT location (#PCDATA)>
+
+  <!ELEMENT URL (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phNumber (#PCDATA)>
+  <!ELEMENT workHours (#PCDATA)>
+  <!ELEMENT inHomeService (
+    minimumPrice, hourlyFee)>
+  <!ELEMENT minimumPrice (#PCDATA)>
+  <!ELEMENT hourlyFee (#PCDATA)>
+
+  <!ELEMENT businessDescription (#PCDATA)>
+  <!ELEMENT review (#PCDATA)>
+  <!ELEMENT FAQ (#PCDATA)>
+
+  
+]>
+
+
+<businesses>
+<business>
+   <serviceType>lanscaping</serviceType>
+   <businessName>Jim's landscaping</businessName>
+   <businessLogo>
+   			<alt1>Jim's landscaping</alt1>
+   			<src1>jimslandscaping.png</src1>
+   			<location1>images/jimslandscaping.png</location1>
+   </businessLogo>
+   <!-- src=https://www.facebook.com/Jimslandscapingsydney/+ -->
+   <businessEmail>lanscaping@jims.com</businessEmail>
+   <manager>
+    		<manName>Boss Jim</manName>
+    		<phManContactNumber>0469-333-384</phManContactNumber>
+			<manEmail>manager@jims.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Jo Blogs</emName>
+    		<phEmContactNumber>0408-456-789</phEmContactNumber>
+			<emEmail>joblogs@jims.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Bruce Springsteen</emName>
+    		<phEmContactNumber>0422-585-339</phEmContactNumber>
+			<emEmail>brucespringsteen@jims.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Freddie mercury</emName>
+    		<phEmContactNumber>0431-925-779</phEmContactNumber>
+			<emEmail>freddiemercury@jims.com</emEmail>
+  	</employee>
+	<picture>
+		<alt>Example of landscaping</alt>
+		<src>landscapes3.jpg</src>
+		<location>images/landscapes3.jpg</location>
+		<!--src=httpwww.kosovamanagement.com15101149614c8d49932b765e5b48b -->
+	</picture>
+	<URL>https://landscaping.jims.com/</URL>
+	<address>350 Fifth ave NYC</address>
+	<phNumber>1800-7856</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$40.00</minimumPrice>
+    		<hourlyFee>$8.50</hourlyFee>
+  	</inHomeService>
+	<businessDescription>Jim provides high quality landscaping services</businessDescription>
+	<review>****/***** Excellent landscaping, great employee's. -Happy customer</review>
+	<FAQ>Q: Is Jim a real person? A: Of course he is!</FAQ>
+</business>  
+<business>
+
+   <serviceType>lanscaping</serviceType>
+   <businessName>The flatten earth society</businessName>
+   <businessLogo>
+   		<alt1>The flatten earth society</alt1>
+		<src1>flatearth.jpg</src1>
+		<location1>images/flatearth.jpg</location1>
+   </businessLogo>
+   <!-- http://www.newsweek.com  -->
+   <businessEmail>lanscaping@flattenearthsociety.com</businessEmail>
+   <manager>
+    		<manName>Warren Buffett</manName>
+    		<phManContactNumber>0459-222-384</phManContactNumber>
+			<manEmail>warrenbuffett@flattenearthsociety.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Ray Charles</emName>
+    		<phEmContactNumber>0407-446-989</phEmContactNumber>
+			<emEmail>raycharles@flattenearthsociety.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>George Harrison</emName>
+    		<phEmContactNumber>0412-363-339</phEmContactNumber>
+			<emEmail>georgeharrison@flattenearthsociety.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Rick Astley</emName>
+    		<phEmContactNumber>0431-925-726</phEmContactNumber>
+			<emEmail>rickastley@flattenearthsociety.com</emEmail>
+  	</employee>
+	<picture>
+		<alt>Example of landscaping</alt>
+		<src>landscapes2.jpg</src>
+		<location>images/landscapes2.jpg</location>	
+	</picture>
+	<!-- src=httpswww.lowndescapes.com.auservicesgarden-water-features  -->
+	<URL>https://flattenearthsociety.com/</URL>
+	<address>12 edge wy, Edge of the world</address>
+	<phNumber>911</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$15.00</minimumPrice>
+    		<hourlyFee>$12.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>Stack, move or flatten, we'll deal with your dirt</businessDescription>
+	<review>****/***** Great people and very hard workers but they have a very outdated worldview. -Happy customer</review>
+	<FAQ>#REQUIRED</FAQ>
+</business>
+<business>   
+   
+   <serviceType>lanscaping</serviceType>
+   <businessName>Dirty berty's</businessName>
+   <businessLogo>
+   		<alt1>Dirty berty's</alt1>
+		<src1>shovel.png</src1>
+		<location1>images/shovel.png</location1>
+   </businessLogo>
+   <!-- https://www.pngfind.com/mpng/xxmJm_garden-spade-png-pic-shovel-png-transparent-png/  -->
+   <businessEmail>lanscaping@dirtybertys.com</businessEmail>
+   <manager>
+    		<manName>Dirty Bertie</manName>
+    		<phManContactNumber>0469-333-384</phManContactNumber>
+			<manEmail>dirtybertie@dirtybertys.com</manEmail>
+  	</manager>
+	<employee>
+    		<emName>Madonna</emName>
+    		<phEmContactNumber>0408-456-789</phEmContactNumber>
+			<emEmail>madonna@dirtybertys.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>Stephen Colbert</emName>
+    		<phEmContactNumber>0422-585-339</phEmContactNumber>
+			<emEmail>stephencolbert@dirtybertys.com</emEmail>
+  	</employee>
+	<employee>
+    		<emName>John Oliver</emName>
+    		<phEmContactNumber>0431-925-779</phEmContactNumber>
+			<emEmail>johnoliver@dirtybertys.com</emEmail>
+  	</employee>
+	<picture>
+		<alt>Example landscape work</alt>
+		<src>landscapes1.jpg</src>
+		<location>images/landscapes1.jpg</location>
+	</picture>
+	<!-- src=https://www.blog.swensongranite.comcelebrating-the-beauty-of-balance-at-the-boston-flower-and-garden-show  -->
+	<URL>https://dirtybertys.com/</URL>
+	<address>2 Macquarie St, Sydney</address>
+	<phNumber>000</phNumber>
+	<workHours>9am-5pm</workHours>
+	<inHomeService>
+    		<minimumPrice>$11.00</minimumPrice>
+    		<hourlyFee>$16.00</hourlyFee>
+  	</inHomeService>
+	<businessDescription>Bertie is dirty but he gets done the workie</businessDescription>
+	<review>****/***** Good business, great service, but Bertie really needs to take a bath every once in a while. -Happy customer</review>
+	<FAQ>What is there to ask? We are the best in the business</FAQ>
+</business>
+</businesses>
